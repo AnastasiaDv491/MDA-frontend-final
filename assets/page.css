@@ -1,0 +1,220 @@
+.page-content {
+    padding: 2rem 1rem;
+}
+
+@media (min-width: 48em) {
+    .page-content {
+        margin-left: 15%;
+
+        width: 80%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+#NavBarSimple {
+    /* background: #FFFFFF; */
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-light .navbar-brand {
+    color: #56B4E9;
+}
+
+nav>.container {
+    margin-left: 15%;
+    width: 80%;
+}
+
+.nav-link:hover {
+    color: #56B4E9;
+}
+
+.Select-control {
+    background: #56B4E9;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 10px;
+
+}
+
+.navbar-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 512px;
+    grid-row-gap: 0px;
+    width: 1250px
+}
+
+.nav-item {
+    display: flex;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label,
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+    color: white;
+}
+
+.Select-arrow {
+    border-color: white transparent transparent;
+}
+
+.Select-clear-zone {
+    color: white;
+}
+
+.graph_header {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+.graph_subheader {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.Select-menu-outer {
+    border-radius: 20px;
+    width: 200px;
+}
+
+.Select--single>.Select-control .Select-value,
+.Select-placeholder {
+    padding-left: 20px;
+}
+
+/* Styling datepicker */
+.SingleDatePickerInput.SingleDatePickerInput_1.SingleDatePickerInput__withBorder.SingleDatePickerInput__withBorder_2.input:valid {
+    border-radius: 20px;
+    background: #56B4E9;
+}
+
+.DateInput_input.DateInput_input_1 {
+    background: #56B4E9;
+    color: white;
+}
+
+.SingleDatePickerInput__withBorder {
+    border-radius: 20px;
+    border: 1px solid #ccc !important;
+    background-color: #56B4E9;
+}
+
+
+
+.DateInput_input,
+.DateInput_input_1 {
+    Height: 34px !important;
+    Width: 100% !important;
+    border-radius: inherit;
+}
+
+.DateInput_input__focused {
+    border: 0;
+}
+
+.CalendarDay__selected,
+.CalendarDay__selected:active,
+.CalendarDay__selected:hover {
+    background: #56B4E9;
+    border: #56B4E9;
+}
+
+.filters_parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#my-date-picker-single {
+    margin-top: 10px;
+}
+
+.DateInput_input {
+    border-radius: 20px;
+}
+
+/* Homepage */
+.home-page-logo-text {
+    font-size: larger;
+    text-align: center;
+    padding: 70px 0;
+
+}
+
+.page-content-home {
+    width: 80%;
+    margin: auto;
+}
+
+/* Today page */
+
+.today-parent-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-template-rows: repeat(2, 4fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.today-children-grid {
+    background-color: #244BA6;
+    width: 295px;
+    height: 146px;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.flex-parent {
+    justify-content: space-between;
+}
+
+.today-children-grid .event-type {
+    color: #56B4E9;
+    font-weight: 700;
+}
+
+.event-meta-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.event-meta-grid>p {
+    color: white;
+}
+
+.event-name {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Interactive maps */
+
+.plot-container {
+    width: 2000px;
+    height: 800px;
+
+}
+
+.graph_div {
+overflow: hidden;
+}
