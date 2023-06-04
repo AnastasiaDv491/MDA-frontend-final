@@ -1,4 +1,6 @@
 import numpy as np
+import pandas as pd
+import datetime
 
 def get_event_info(number, events_df):
     if len(events_df) < number + 1:
@@ -19,8 +21,9 @@ def get_event_info(number, events_df):
         adress = events_df['Address'].iloc[number]
         respondent = int(events_df['Respondents'].iloc[number])
         respondent = str(respondent) + " Respondents"
-        time = events_df['Time'].iloc[number]
-
+         time = pd.to_datetime(events_df['Time'].iloc[number])
+        time = time.strftime('%H:%M')
+      
     result = { "name" : name,
         "time" : time,
         "adress" : adress,
