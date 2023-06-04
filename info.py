@@ -21,7 +21,7 @@ def get_event_info(number, events_df):
         adress = events_df['Address'].iloc[number]
         respondent = int(events_df['Respondents'].iloc[number])
         respondent = str(respondent) + " Respondents"
-         time = pd.to_datetime(events_df['Time'].iloc[number])
+        time = pd.to_datetime(events_df['Time'].iloc[number])
         time = time.strftime('%H:%M')
       
     result = { "name" : name,
