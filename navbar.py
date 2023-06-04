@@ -12,7 +12,7 @@ def create_navbar():
                                     html.I(className="fa-brands fa-github"),  # Font Awesome Icon
                                     " Front End"  # Text beside icon
                                 ],
-                                href="https://github.com/CharlotteVercammen/Modern-Data-Analytics",
+                                href="https://github.com/AnastasiaDv491/MDA-frontend-final",
                                 target="_blank"
                             ),
                         dbc.NavLink(
